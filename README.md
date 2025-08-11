@@ -40,7 +40,6 @@ The two main resource types are **Users** and **Books**.
 ### Requirements
 - Python **3.12+**
 - Dependencies listed in `requirements.txt`
-- Tested in **PyCharm** and **VS Code**
 
 ---
 
