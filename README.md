@@ -43,21 +43,6 @@ The two main resource types are **Users** and **Books**.
 
 ---
 
-## 📂 Project Structure
-```
-fastapi-library/
-├── main.py
-├── app/
-│ ├── models/
-│ ├── routes/
-│ ├── schemas/
-│ └── services/
-├── tests/
-├── requirements.txt
-└── README.md
-```
----
-
 ## 🚀 Quick Start
 
 | Action                | Command                                                                                   |
