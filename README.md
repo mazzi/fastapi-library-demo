@@ -47,6 +47,7 @@ The two main resource types are **Users** and **Books**.
 
 | Action                | Command                                                                                   |
 |-----------------------|-------------------------------------------------------------------------------------------|
+| **Set environment**   | `echo JT_ENCODE_ARG = \"secret_key\" > .envc`                                               |
 | **Activate virtualenv** | `. ./bin/activate`                                                                      |
 | **Install deps**      | `pip install -r requirements.txt`                                                         |
 | **Run (FastAPI CLI)** | `fastapi run ./src/main.py`                                                               |
