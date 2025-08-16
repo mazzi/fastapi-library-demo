@@ -12,7 +12,7 @@ from sqlalchemy.pool import StaticPool
 pwd_context: CryptContext = CryptContext(schemes=["bcrypt"], bcrypt__rounds=12)
 
 # Add the directory containing `main.py` to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src/')))
 from main import app, get_db
 import models
 from database import Base

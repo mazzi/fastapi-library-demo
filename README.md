@@ -50,7 +50,8 @@ The two main resource types are **Users** and **Books**.
 | **Install deps**      | `pip install -r requirements.txt`                                                         |
 | **Run (Uvicorn)**     | `uvicorn main:app --host 0.0.0.0 --port 5010 --reload`                                     |
 | **Run (Docker)**      | `docker build --no-cache --build-arg JT_ENCODE_ARG=my_secret -t library-api .` <br> `docker run -d --name library-api -p 5010:5010 library-api` |
-| **Run (FastAPI CLI)** | `fastapi run main.py`                                                                     |
+| **Activate virtualenv** | `. ./bin/activate`                                                                      |
+| **Run (FastAPI CLI)** | `fastapi run ./src/main.py`                                                               |
 | **Tests**             | `pytest`                                                                                  |
 
 ---
